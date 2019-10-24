@@ -66,11 +66,11 @@ div.grid4 {
 
 .fas {
 	animation-name: heartbeat;
-    animation-duration: var(--heartbeat);
+    animation-duration: 0.75s/*var(--heartbeat)*/;
 	animation-iteration-count: infinite;
 }
 
 @keyframes heartbeat {
 	from {transform: scale(1,1); color: white;}
-	to {transform: scale(1.2,1.2); color: red;}
+	to {transform: scale(2,2); color: red;}
 }
